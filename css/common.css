@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   margin: 0px;
   padding: 0;
 }
@@ -74,13 +74,46 @@
   width: 100%;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
 
 .card-student {
   background-color: white;
   margin-top: 2%;
 }
 
-.percentage {
+.logo {
+  float: none;
+}
+
+.view-profile {
+  text-align: right;
+}
+
+.menu-nav:hover {
+  cursor: pointer;
+  border-bottom: solid 5px #f7b617;
+}
+
+.margin-top {
+  margin-top: 1%;
+}
+
+.skills {
   background-color: #e1e1e1;
-  margin: 1%;
+  font-size: 10px;
+  margin-left: 3%;
+  width: 30%;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 1vw;
+  height: 2vh;
+  border: solid 0.5px #f7b617;
 }

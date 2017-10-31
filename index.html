@@ -2,101 +2,123 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Data-Dashboard</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/common.css">
   </head>
   <body>
     <header class="container">
-      <div class="row">
-        <img class="logo col-2" src="assets/images/logo-laboratoria.svg" alt="Laboratoria">
-        <span class="menu">&#9776;</span>
+      <div class="row center">
+        <img class="col-2 logo" src="assets/images/logo-laboratoria.svg" alt="Laboratoria">
       </div>
     </header>
-    <nav>
-      <h1>Santiago de Chile 2017 - II <span class="dropdown">&#9660;</span></h1>
-        <li>OVERVIEW</li>
-        <li>STUDENTS</li>
-        <li>TEACHERS</li>
+    <nav class="bold">
+      <h1 class="col-12">SANTIAGO DE CHILE 2017 - II <span class="dropdown">&#9660;</span></h1>
+      <ul class="col-12">
+        <li class="menu-nav">OVERVIEW</li>
+        <li class="menu-nav">STUDENTS</li>
+        <li class="menu-nav">TEACHERS</li>
+      </ul>
     </nav>
-    <main class="container">
+    <main class="row">
       <aside class="col-4">
         <h2>Specialization:</h2>
-        <li>Javascript</li>
-        <li>UX Design</li>
-        <li>Front end Designer</li>
+        <ul>
+          <li><span class="checkbox"></span> Javascript</li>
+          <li><span class="checkbox"></span> UX Design</li>
+          <li><span class="checkbox"></span> Front end Designer</li>
+        </ul>
       </aside>
-      <section class="col-8">
-        <input class="col-10" type="text" name="" placeholder="Buscar">
-        <article class="col-10 card-student">
+      <section class="col-8 margin-top">
+        <input class="col-11" type="text" name="" placeholder="Buscar">
+        <article class="col-11 card-student">
           <div class="col-2">
-            <img class="" src="https://dummyimage.com/100x100/000/fff.jpg&text=foto" alt="">
+            <img class="" src="https://dummyimage.com/110x120/000/fff.jpg&text=foto" alt="">
           </div>
           <div class="col-4">
             <h3 class="">Nombre Alumna</h3>
             <p>Front end Designer</p>
+            <span class="skills">JAVASCRIPT</span>
+            <span class="skills">API´s</span>
+            <span class="skills">CSS</span>
           </div>
           <div class="col-6">
-            <div class="col-3 percentage">
+            <div class="col- skills">
               <h4>95.5%</h4>
               <p>Tech Skills</p>
             </div>
-            <div class="col-3 percentage">
+            <div class="col- skills">
               <h4>95.5%</h4>
               <p>Life Skills</p>
             </div>
-            <div class="col-3 percentage">
+            <div class="col- skills">
               <h4>INTER</h4>
               <p>English Skills</p>
             </div>
+          </div>
+          <div class="col-10 view-profile">
+            <p>Ver perfil <span>&#9654;</span></p>
           </div>
         </article>
-        <article class="col-10 card-student">
+        <article class="col-11 card-student">
           <div class="col-2">
-            <img class="" src="https://dummyimage.com/100x100/000/fff.jpg&text=foto" alt="">
+            <img class="" src="https://dummyimage.com/110x120/000/fff.jpg&text=foto" alt="">
           </div>
           <div class="col-4">
-            <h3 class="">Nombre Alumna</h3>
+            <h3>Nombre Alumna</h3>
             <p>Front end Designer</p>
+            <span class="skills">JAVASCRIPT</span>
+            <span class="skills">API´s</span>
+            <span class="skills">CSS</span>
           </div>
           <div class="col-6">
-            <div class="col-3 percentage">
+            <div class="col- skills">
               <h4>95.5%</h4>
               <p>Tech Skills</p>
             </div>
-            <div class="col-3 percentage">
+            <div class="col- skills">
               <h4>95.5%</h4>
               <p>Life Skills</p>
             </div>
-            <div class="col-3 percentage">
+            <div class="col- skills">
               <h4>INTER</h4>
               <p>English Skills</p>
             </div>
+          </div>
+          <div class="col-10 view-profile">
+            <p>Ver perfil <span>&#9654;</span></p>
           </div>
         </article>
-        <article class="col-10 card-student">
+        <article class="col-11 card-student">
           <div class="col-2">
-            <img class="" src="https://dummyimage.com/100x100/000/fff.jpg&text=foto" alt="">
+            <img class="" src="https://dummyimage.com/110x120/000/fff.jpg&text=foto" alt="">
           </div>
           <div class="col-4">
             <h3 class="">Nombre Alumna</h3>
             <p>Front end Designer</p>
+            <span class="skills">JAVASCRIPT</span>
+            <span class="skills">API´s</span>
+            <span class="skills">CSS</span>
           </div>
           <div class="col-6">
-            <div class="col-3 percentage">
+            <div class="col- skills">
               <h4>95.5%</h4>
               <p>Tech Skills</p>
             </div>
-            <div class="col-3 percentage">
+            <div class="col- skills">
               <h4>95.5%</h4>
               <p>Life Skills</p>
             </div>
-            <div class="col-3 percentage">
+            <div class="col- skills">
               <h4>INTER</h4>
               <p>English Skills</p>
             </div>
           </div>
-        </article>  
+          <div class="col-10 view-profile">
+            <p>Ver perfil <span>&#9654;</span></p>
+          </div>
+        </article>
       </section>
     </main>
   </body>
