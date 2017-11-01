@@ -8,8 +8,9 @@ nav {
 }
 
 nav li {
-  list-style: none;
   display: inline-block;
+  line-height: 0;
+  list-style: none;
   margin-right: 2%;
 }
 
@@ -33,4 +34,29 @@ main {
 
 input {
   border: none;
+}
+
+.modal {
+  background-color: white;
+  display: none;
+  height: 70%;
+  overflow-y: scroll;
+  top: 15%;
+  position: fixed;
+  z-index: 1;
+}
+
+.close {
+
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+  margin: 0;
+}
+
+.close:hover,
+.close:focus {
+  color: #f7b617;
+  cursor: pointer;
+  text-decoration: none;
 }

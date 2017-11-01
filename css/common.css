@@ -117,3 +117,7 @@
   height: 2vh;
   border: solid 0.5px #f7b617;
 }
+
+.sede {
+  border-bottom: solid 2px #f7b617;
+}
