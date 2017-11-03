@@ -96,7 +96,6 @@
 }
 
 .menu-nav:hover {
-  cursor: pointer;
   border-bottom: solid 5px #f7b617;
 }
 
@@ -118,6 +117,19 @@
   border: solid 0.5px #f7b617;
 }
 
-.sede {
+.checkbox, .menu-nav,
+.skills, .dropdown {
+  cursor: pointer;
+}
+
+.line {
   border-bottom: solid 2px #f7b617;
+}
+
+.graphic-card {
+  background-color: white;
+}
+
+.pastel {
+  border-radius: 100%;
 }
