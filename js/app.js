@@ -1,25 +1,20 @@
-/*
+ /*
  * Funcionalidad de tu proyecto
  */
-var modal = document.getElementById('modal');
-var modalTech = document.getElementById('modalTech');
+ var dropdown = document.getElementsByClassName('dropdown');
 
-var dropdown = document.getElementById('dropDown');
-    dropdown.addEventListener("click", modalOpen);
-
-var dropDownTech = document.getElementById('dropDownTech');
-    dropDownTech.addEventListener("click", modalOpen);
-
-var close = document.getElementById("close");
-    close.addEventListener("click", modalClose);
-
-var closeTech = document.getElementById("closeTech");
-    closeTech.addEventListener("click", modalClose);
-
-function modalOpen(){
-   modalTech.style.display = "block";
+ for (var i = 0; i < dropdown.length; i++) {
+   dropdown[i].addEventListener("click", showMenu);
  }
 
-function modalClose() {
-   modal.style.display = "none";
-}
+ function showMenu() {
+   var listMenu = this.getElementsByClassName("item-list")[0];
+
+   if (listMenu.classList.contains("hide")){
+     listMenu.classList.remove("hide");
+     listMenu.classList.add("show");
+   } else {
+     listMenu.classList.remove("show");
+     listMenu.classList.add("hide");
+   }
+ }

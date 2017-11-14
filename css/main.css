@@ -1,7 +1,14 @@
 /*
  * Estilos de tu proyecto
  */
- a {
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  margin: 0px;
+  padding: 0;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -9,61 +16,189 @@ nav {
   background-color: #e1e1e1;
   height: 17vh;
 }
- nav, a {
+
+nav, a {
    color: #2b2b2b;
- }
-nav li {
-  display: inline-block;
+}
+
+h1 {
+  padding-top: 2%;
+}
+
+ul {
+  padding-top: 1.5%;
+}
+
+li {
   list-style: none;
+}
+
+nav li, section li {
   margin-right: 2%;
 }
 
 nav, main {
-  padding-left: 5%;
+   padding-left: 5%;
 }
 
 aside {
-  background-color: white;
-  margin-top: 2%;
+  padding: 2%;
 }
 
 aside li {
-  list-style: none;
+  width: max-content;
+}
+
+aside, section {
+  float: left;
 }
 
 main {
   background-color: #f7f7f7;
-  height: 100vh;
-}
-
-main li {
-    list-style: none;
+  height: 190vh;
+  padding: 5%;
 }
 
 input {
   border: none;
+  width: 65%;
+  margin-left: 1%;
+  height: 30px;
+  float: right;
 }
 
-.modal {
+section {
+  width: 100%;
+}
+
+aside, .card-student, .graphic-card-small,
+.graphic-card-large, .item-list {
   background-color: white;
-  display: none;
-  height: 70%;
-  overflow-y: scroll;
-  top: 15%;
-  position: fixed;
-  z-index: 1;
 }
 
-.close {
-  font-size: 30px;
-  font-weight: bold;
-  transition: 0.3s;
-  margin: 0;
+aside, nav li, section li, .checkbox, .inline-block {
+  display: inline-block;
 }
 
-.close:hover,
-.close:focus {
-  color: #f7b617;
+.menu ul ul {
+  position: absolute;
+}
+
+.menu li span {
+  margin-left: 10px;
+}
+
+.menu .item-list li {
+  display: block;
+}
+
+.menu-nav:hover {
+  border-bottom: solid 5px #f7b617;
+}
+
+.item-list li:hover {
+  background: rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  text-decoration: none;
+}
+
+.container {
+  width:100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.logo {
+  float: none;
+}
+
+.width-16 {
+  width: 16.666%;
+}
+
+.width-33 {
+  width: 33.333%;
+}
+
+.width-40 {
+  width: 40%;
+  margin-left: 2%;
+}
+
+.width-66 {
+  width: 66.666%;
+}
+
+.checkbox, .menu-nav,
+.skills, .dropdown {
+  cursor: pointer;
+}
+
+.card-student, .container-cards,
+.graphic-card-small, .graphic-card-large {
+  float: left;
+}
+
+.card-student {
+  margin-top: 2%;
+  padding: 2%;
+  width: 100%;
+}
+
+.container-cards {
+  width: 65%;
+  margin-left: 1.5%;
+}
+
+.view-profile {
+  text-align: right;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display:block;
+}
+
+.item-list {
+  width: 30%;
+}
+
+.graphic-card-small {
+  width: 31%;
+  margin: 1.1%;
+}
+
+.graphic-card-large {
+  width: 98%;
+  margin: 1%;
+}
+
+.graphic-circle {
+  border-radius: 100%;
+}
+
+.skills {
+  background-color: #e1e1e1;
+  font-size: 10px;
+  margin-left: 3%;
+}
+
+.checkbox {
+  width: 1vw;
+  height: 2vh;
+  border: solid 0.5px #f7b617;
+}
+
+.line {
+  margin-top: 5%;
+  width: 60%;
+  border-bottom: solid 2px #f7b617;
 }
